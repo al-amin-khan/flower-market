@@ -1,5 +1,11 @@
-@import "tailwindcss" @import
-    url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --primary: #E95A08;
+    --secondary: #00000080;
+    --light-gray: #8987A1;
+}
 
 .font-noto-serif {
     font-family: "Noto Serif", serif;
