@@ -15,6 +15,7 @@
         ></script>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/script.js" defer></script>
     </head>
     <body>
         <nav>
@@ -152,6 +153,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -175,6 +177,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -198,6 +201,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -221,6 +225,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -244,6 +249,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -267,6 +273,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -290,6 +297,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -313,6 +321,7 @@
                                 </p>
                                 <button
                                     class="bg-[var(--primary)] text-white py-2 w-full font-semibold text-base uppercase mt-[1.875rem]"
+                                    onclick="showCartAlert()"
                                 >
                                     add to cart
                                 </button>
@@ -538,6 +547,10 @@
             <!-- space between sections -->
             <div class="mt-8 md:mt-15 lg:mt-15"></div>
 
+            <!-- Alert -->
+            <div id="cart-alert" class="fixed bottom-4 left-4 z-50 bg-green-200 font-semibold text-gray-900 text-xl px-8 py-3 rounded shadow-md hidden opacity-0 transition-opacity duration-1000 ease-in-out">
+                ✅ Product added to cart!
+            </div>
         </main>
     </body>
 </html>
